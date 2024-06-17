@@ -1,0 +1,63 @@
+.Home-page{
+    width: 95w;
+    height: 91vh;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-clip:padding-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+}
+
+.slogan-of-the-home-page{
+    font-family: "MV Boli";
+    text-shadow: 3px 1px 1px rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: -70px;
+    width: 100%;
+    margin-left: -8px;
+    color: rgb(246, 200, 47);
+}
+
+.Register{
+   display: flex;
+   flex-direction: column;
+   padding-top:200px;
+   padding-bottom: 100px;
+   padding-left: 50px;
+}
+
+  
+.button-50 {
+ height: 40px;
+ width: 150px;
+ background-color: rgb(25, 25, 26);
+ font-size: medium;
+ font-weight: bold;
+ color: rgb(255, 250, 248);
+}
+.button-user-admin-login-containecr{
+  display: flex;
+  gap:10px
+}
+.button-50:focus {
+  text-decoration: none;
+}
+
+
+
+
+p{
+    font-size: 30px;
+    font-weight: 700;
+    color: azure;
+    font-family: initial;
+}
+
+.form-type{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
